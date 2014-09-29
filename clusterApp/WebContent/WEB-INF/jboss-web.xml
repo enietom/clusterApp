@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jboss-web xmlns="http://www.jboss.com/xml/ns/javaee"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.jboss.com/xml/ns/javaee http://www.jboss.org/j2ee/schema/jboss-web_6_0.xsd"
+           version="6.0">
+
+   <max-active-sessions>20</max-active-sessions>
+   <passivation-config>
+      <use-session-passivation>true</use-session-passivation>
+      <passivation-min-idle-time>60</passivation-min-idle-time>
+      <passivation-max-idle-time>600</passivation-max-idle-time>
+   </passivation-config>
+
+</jboss-web>
